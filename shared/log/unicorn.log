@@ -1,0 +1,39 @@
+I, [2017-03-16T18:48:45.150875 #98288]  INFO -- : listening on addr=/tmp/unicorn.sock fd=11
+I, [2017-03-16T18:48:45.150999 #98288]  INFO -- : worker=0 spawning...
+I, [2017-03-16T18:48:45.151753 #98288]  INFO -- : worker=1 spawning...
+I, [2017-03-16T18:48:45.152186 #98288]  INFO -- : master process ready
+I, [2017-03-16T18:48:45.153029 #98301]  INFO -- : worker=0 spawned pid=98301
+I, [2017-03-16T18:48:45.153258 #98302]  INFO -- : worker=1 spawned pid=98302
+I, [2017-03-16T18:48:45.153375 #98301]  INFO -- : Refreshing Gem list
+I, [2017-03-16T18:48:45.153562 #98302]  INFO -- : Refreshing Gem list
+I, [2017-03-16T18:48:46.410478 #98302]  INFO -- : worker=1 ready
+I, [2017-03-16T18:48:46.410480 #98301]  INFO -- : worker=0 ready
+I, [2017-03-16T18:49:53.717087 #98288]  INFO -- : reaped #<Process::Status: pid 98302 exit 0> worker=1
+I, [2017-03-16T18:49:53.718198 #98288]  INFO -- : reaped #<Process::Status: pid 98301 exit 0> worker=0
+I, [2017-03-16T18:49:53.718951 #98288]  INFO -- : master complete
+I, [2017-03-16T18:50:24.986223 #98369]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2017-03-16T18:50:24.987450 #98369]  INFO -- : listening on addr=/tmp/unicorn.sock fd=11
+I, [2017-03-16T18:50:24.987541 #98369]  INFO -- : worker=0 spawning...
+I, [2017-03-16T18:50:24.988322 #98369]  INFO -- : worker=1 spawning...
+I, [2017-03-16T18:50:24.988931 #98369]  INFO -- : master process ready
+I, [2017-03-16T18:50:24.991019 #98382]  INFO -- : worker=0 spawned pid=98382
+I, [2017-03-16T18:50:24.991810 #98382]  INFO -- : Refreshing Gem list
+I, [2017-03-16T18:50:24.991841 #98383]  INFO -- : worker=1 spawned pid=98383
+I, [2017-03-16T18:50:24.992584 #98383]  INFO -- : Refreshing Gem list
+I, [2017-03-16T18:50:26.283393 #98383]  INFO -- : worker=1 ready
+I, [2017-03-16T18:50:26.284630 #98382]  INFO -- : worker=0 ready
+I, [2017-03-16T18:51:13.632979 #98369]  INFO -- : reaped #<Process::Status: pid 98383 exit 0> worker=1
+I, [2017-03-16T18:51:13.634526 #98369]  INFO -- : reaped #<Process::Status: pid 98382 exit 0> worker=0
+I, [2017-03-16T18:51:13.634732 #98369]  INFO -- : master complete
+I, [2017-03-16T19:03:21.056422 #98946]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2017-03-16T19:03:21.057704 #98946]  INFO -- : listening on addr=/tmp/unicorn.sock fd=11
+I, [2017-03-16T19:03:21.057796 #98946]  INFO -- : worker=0 spawning...
+I, [2017-03-16T19:03:21.058551 #98946]  INFO -- : worker=1 spawning...
+I, [2017-03-16T19:03:21.058981 #98946]  INFO -- : master process ready
+I, [2017-03-16T19:03:21.059946 #98959]  INFO -- : worker=0 spawned pid=98959
+I, [2017-03-16T19:03:21.060094 #98960]  INFO -- : worker=1 spawned pid=98960
+I, [2017-03-16T19:03:21.060358 #98959]  INFO -- : Refreshing Gem list
+I, [2017-03-16T19:03:21.060415 #98960]  INFO -- : Refreshing Gem list
+I, [2017-03-16T19:03:22.323294 #98959]  INFO -- : worker=0 ready
+I, [2017-03-16T19:03:22.324252 #98960]  INFO -- : worker=1 ready
+127.0.0.1 - - [16/Mar/2017:19:03:26 +0900] "GET / HTTP/1.0" 304 - 0.2161
